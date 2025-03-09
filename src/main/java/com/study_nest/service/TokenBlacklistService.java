@@ -1,19 +1,3 @@
-package com.study_nest.service;
-
-import org.springframework.stereotype.Service;
-
-import java.util.HashSet;
-import java.util.Set;
-
-@Service
-public class TokenBlacklistService {
-    private final Set<String> blacklistedTokens = new HashSet<>();
-
-    public void blacklistToken(String token) {
-        blacklistedTokens.add(token);
-    }
-
-    public boolean isTokenBlacklisted(String token) {
-        return blacklistedTokens.contains(token);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdb7bd60e80aaed90166a9648567d9809397187280d03c2e82fd055325e371cc
+size 448

@@ -1,30 +1,3 @@
-package com.study_nest.service.pagination;
-
-
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import java.util.List;
-
-
-@Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
-public class CustomPage<T> {
-
-    private List<T> content;
-    private int pageNumber;
-    private int pageSize;
-    private long totalElements;
-    private int totalPages;
-    private boolean last;
-    private boolean first;
-    private boolean empty;
-
-
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bcd4714afa0d69ea03f2bfdb9bfffee743046574d750c613f60996945d28a7aa
+size 494

@@ -1,12 +1,3 @@
-package com.study_nest.repo;
-
-import com.study_nest.model.User;
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.Optional;
-
-public interface UserRepository extends JpaRepository<User, Integer> {
-
-    Optional<User> findByEmail(String email);
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9711e8bb249efc67168c8e67fb5e86abdd894246408a7be31bd64c8926f91b9
+size 276

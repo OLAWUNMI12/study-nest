@@ -1,24 +1,3 @@
-package com.study_nest.repo;
-
-import com.study_nest.model.Course;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
-
-import java.util.List;
-
-public interface CourseRepository extends JpaRepository<Course, Integer> {
-
-    List<Course> findByDepartmentId(Integer departmentId);
-
-    @Query("SELECT c FROM Course c WHERE LOWER(c.name) LIKE LOWER(CONCAT('%', :name, '%')) AND c.department.id = :departmentId ")
-    Page<Course> searchCourses(@Param("name") String name, @Param("departmentId") Integer departmentId,  Pageable pageable);
-
-
-    @Query("SELECT c FROM Course c WHERE  c.department.id = :departmentId ORDER BY RAND() LIMIT 3")
-    List<Course> searchRandomCourses(@Param("departmentId") Integer departmentId);
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:76bd0aa891f902e7e61199f1b2b54a496e86981a2a74eb6643ba8e140b1f2a74
+size 937

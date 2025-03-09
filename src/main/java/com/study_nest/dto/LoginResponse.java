@@ -1,20 +1,3 @@
-package com.study_nest.dto;
-
-
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
-public class LoginResponse {
-
-    private String token;
-
-    private long expiresIn;
-
-    private String username;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4985787f8eaecaffaad719a73a578400547aa21570ec06140e2748d596da328f
+size 312

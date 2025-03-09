@@ -1,33 +1,3 @@
-package com.study_nest.dto;
-
-
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import java.util.Date;
-
-@Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
-public class UserDto {
-
-    private String firstName;
-
-    private String lastName;
-
-    private String email;
-
-    private String courseOfStudy;
-
-    private String institution;
-
-    private Date createdAt;
-
-    private Date updatedAt;
-
-    private String token;
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6797eb891c0b56231fd340b147b2c8aa78f0e50cce8ea10a26c185ee797ec07d
+size 486

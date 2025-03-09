@@ -1,13 +1,3 @@
-package com.study_nest;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
-public class StudyNestApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(StudyNestApplication.class, args);
-	}
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:75d0821476438eb8fd48dc86c4f7152fc7cd1b4620c8606cddfac92d3587835b
+size 313
